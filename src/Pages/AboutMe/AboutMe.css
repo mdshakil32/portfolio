@@ -1,0 +1,31 @@
+.about-me {
+  background-color: rgba(40, 155, 231, 0.096);
+}
+.bullet-list {
+  list-style: none;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(
+      to bottom,
+      rgba(255, 0, 0, 0.356),
+      rgba(255, 0, 0, 0.356)
+    )
+    0 0 0 1;
+  margin: 0 0 0 1em;
+}
+
+.bullet-item {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.bullet-item::before {
+  position: absolute;
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: rgb(241, 19, 19);
+  left: -2.35em;
+  top: 0.7em;
+}

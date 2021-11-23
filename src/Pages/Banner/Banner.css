@@ -1,0 +1,19 @@
+.banner {
+  background: url("../../images/SL_0210121_40570_75.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-height: 600px;
+}
+.social-icons li {
+  width: 43px;
+  height: 43px;
+  background-color: rgba(121, 121, 121, 0.746);
+  margin-right: 10px;
+  text-align: center;
+  font-size: 28px;
+  border-radius: 50%;
+  color: white;
+}
+.social-icons li a {
+  color: white;
+}
